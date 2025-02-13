@@ -19,7 +19,6 @@ message HolisticLandmarks{
 
 message PoseLandmarks {
   repeated Landmark landmarks = 1;
-  int32 length = 2;
   enum LandmarkIndex {
     nose = 0;
     leftEyeInner = 1;
@@ -54,12 +53,12 @@ message PoseLandmarks {
     rightHeel = 30;
     leftFootIndex = 31;
     rightFootIndex = 32;
+    poseLandmarkLength = 33;
   }
 }
 
 message HandLandmarks{
   repeated Landmark landmarks = 1;
-  int32 length = 2;
   enum LandmarkIndex {
     wrist = 0;
     thumbCMC = 1;
@@ -82,18 +81,17 @@ message HandLandmarks{
     pinkyPIP = 18;
     pinkyDIP = 19;
     pinkyTIP = 20;
+    handLandmarkLength = 21;
   }
 }
 
 message FaceResults{
   repeated Landmark landmarks = 1;
   Blendshapes blendshapes = 2;
-  int32 length = 3;
 }
 
 message Blendshapes {
   repeated float scores = 1;
-  int32 length = 2;
   enum BlendshapesIndex {
     _neutral = 0;
     browDownLeft =1;
@@ -148,5 +146,6 @@ message Blendshapes {
     noseSneerLeft = 50;
     noseSneerRight = 51;
     tongueOut = 52;
+    blendshapeLength = 53;
   }
 }

@@ -31,67 +31,67 @@ namespace HolisticPose {
             "NgoRbGVmdEhhbmRMYW5kbWFya3MYAiABKAsyGy5ob2xpc3RpY1Bvc2UuSGFu",
             "ZExhbmRtYXJrcxI3ChJyaWdodEhhbmRMYW5kbWFya3MYAyABKAsyGy5ob2xp",
             "c3RpY1Bvc2UuSGFuZExhbmRtYXJrcxIuCgtmYWNlUmVzdWx0cxgEIAEoCzIZ",
-            "LmhvbGlzdGljUG9zZS5GYWNlUmVzdWx0cyLgBAoNUG9zZUxhbmRtYXJrcxIp",
-            "CglsYW5kbWFya3MYASADKAsyFi5ob2xpc3RpY1Bvc2UuTGFuZG1hcmsSDgoG",
-            "bGVuZ3RoGAIgASgFIpMECg1MYW5kbWFya0luZGV4EggKBG5vc2UQABIQCgxs",
-            "ZWZ0RXllSW5uZXIQARILCgdsZWZ0RXllEAISEAoMbGVmdEV5ZU91dGVyEAMS",
-            "EQoNcmlnaHRFeWVJbm5lchAEEgwKCHJpZ2h0RXllEAUSEQoNcmlnaHRFeWVP",
-            "dXRlchAGEgsKB2xlZnRFYXIQBxIMCghyaWdodEVhchAIEg0KCW1vdXRoTGVm",
-            "dBAJEg4KCm1vdXRoUmlnaHQQChIQCgxsZWZ0U2hvdWxkZXIQCxIRCg1yaWdo",
-            "dFNob3VsZGVyEAwSDQoJbGVmdEVsYm93EA0SDgoKcmlnaHRFbGJvdxAOEg0K",
-            "CWxlZnRXcmlzdBAPEg4KCnJpZ2h0V3Jpc3QQEBINCglsZWZ0UGlua3kQERIO",
-            "CgpyaWdodFBpbmt5EBISDQoJbGVmdEluZGV4EBMSDgoKcmlnaHRJbmRleBAU",
-            "Eg0KCWxlZnRUaHVtYhAVEg4KCnJpZ2h0VGh1bWIQFhILCgdsZWZ0SGlwEBcS",
-            "DAoIcmlnaHRIaXAQGBIMCghsZWZ0S25lZRAZEg0KCXJpZ2h0S25lZRAaEg0K",
-            "CWxlZnRBbmtsZRAbEg4KCnJpZ2h0QW5rbGUQHBIMCghsZWZ0SGVlbBAdEg0K",
-            "CXJpZ2h0SGVlbBAeEhEKDWxlZnRGb290SW5kZXgQHxISCg5yaWdodEZvb3RJ",
-            "bmRleBAgIsYDCg1IYW5kTGFuZG1hcmtzEikKCWxhbmRtYXJrcxgBIAMoCzIW",
-            "LmhvbGlzdGljUG9zZS5MYW5kbWFyaxIOCgZsZW5ndGgYAiABKAUi+QIKDUxh",
-            "bmRtYXJrSW5kZXgSCQoFd3Jpc3QQABIMCgh0aHVtYkNNQxABEgwKCHRodW1i",
-            "TUNQEAISCwoHdGh1bWJJUBADEgwKCHRodW1iVElQEAQSEgoOaW5kZXhGaW5n",
-            "ZXJNQ1AQBRISCg5pbmRleEZpbmdlclBJUBAGEhIKDmluZGV4RmluZ2VyRElQ",
-            "EAcSEgoOaW5kZXhGaW5nZXJUSVAQCBITCg9taWRkbGVGaW5nZXJNQ1AQCRIT",
-            "Cg9taWRkbGVGaW5nZXJQSVAQChITCg9taWRkbGVGaW5nZXJESVAQCxITCg9t",
-            "aWRkbGVGaW5nZXJUSVAQDBIRCg1yaW5nRmluZ2VyTUNQEA0SEQoNcmluZ0Zp",
-            "bmdlclBJUBAOEhEKDXJpbmdGaW5nZXJESVAQDxIRCg1yaW5nRmluZ2VyVElQ",
-            "EBASDAoIcGlua3lNQ1AQERIMCghwaW5reVBJUBASEgwKCHBpbmt5RElQEBMS",
-            "DAoIcGlua3lUSVAQFCJ4CgtGYWNlUmVzdWx0cxIpCglsYW5kbWFya3MYASAD",
-            "KAsyFi5ob2xpc3RpY1Bvc2UuTGFuZG1hcmsSLgoLYmxlbmRzaGFwZXMYAiAB",
-            "KAsyGS5ob2xpc3RpY1Bvc2UuQmxlbmRzaGFwZXMSDgoGbGVuZ3RoGAMgASgF",
-            "Ir4ICgtCbGVuZHNoYXBlcxIOCgZzY29yZXMYASADKAISDgoGbGVuZ3RoGAIg",
-            "ASgFIo4IChBCbGVuZHNoYXBlc0luZGV4EgwKCF9uZXV0cmFsEAASEAoMYnJv",
-            "d0Rvd25MZWZ0EAESEQoNYnJvd0Rvd25SaWdodBACEg8KC2Jyb3dJbm5lclVw",
-            "EAMSEwoPYnJvd091dGVyVXBMZWZ0EAQSFAoQYnJvd091dGVyVXBSaWdodBAF",
-            "Eg0KCWNoZWVrUHVmZhAGEhMKD2NoZWVrU3F1aW50TGVmdBAHEhQKEGNoZWVr",
-            "U3F1aW50UmlnaHQQCBIQCgxleWVCbGlua0xlZnQQCRIRCg1leWVCbGlua1Jp",
-            "Z2h0EAoSEwoPZXllTG9va0Rvd25MZWZ0EAsSFAoQZXllTG9va0Rvd25SaWdo",
-            "dBAMEhEKDWV5ZUxvb2tJbkxlZnQQDRISCg5leWVMb29rSW5SaWdodBAOEhIK",
-            "DmV5ZUxvb2tPdXRMZWZ0EA8SEwoPZXllTG9va091dFJpZ2h0EBASEQoNZXll",
-            "TG9va1VwTGVmdBAREhIKDmV5ZUxvb2tVcFJpZ2h0EBISEQoNZXllU3F1aW50",
-            "TGVmdBATEhIKDmV5ZVNxdWludFJpZ2h0EBQSDwoLZXllV2lkZUxlZnQQFRIQ",
-            "CgxleWVXaWRlUmlnaHQQFhIOCgpqYXdGb3J3YXJkEBcSCwoHamF3TGVmdBAY",
-            "EgsKB2phd09wZW4QGRIMCghqYXdSaWdodBAaEg4KCm1vdXRoQ2xvc2UQGxIT",
-            "Cg9tb3V0aERpbXBsZUxlZnQQHBIUChBtb3V0aERpbXBsZVJpZ2h0EB0SEgoO",
-            "bW91dGhGcm93bkxlZnQQHhITCg9tb3V0aEZyb3duUmlnaHQQHxIPCgttb3V0",
-            "aEZ1bm5lbBAgEg0KCW1vdXRoTGVmdBAhEhYKEm1vdXRoTG93ZXJEb3duTGVm",
-            "dBAiEhcKE21vdXRoTG93ZXJEb3duUmlnaHQQIxISCg5tb3V0aFByZXNzTGVm",
-            "dBAkEhMKD21vdXRoUHJlc3NSaWdodBAlEg8KC21vdXRoUHVja2VyECYSDgoK",
-            "bW91dGhSaWdodBAnEhIKDm1vdXRoUm9sbExvd2VyECgSEgoObW91dGhSb2xs",
-            "VXBwZXIQKRITCg9tb3V0aFNocnVnTG93ZXIQKhITCg9tb3V0aFNocnVnVXBw",
-            "ZXIQKxISCg5tb3V0aFNtaWxlTGVmdBAsEhMKD21vdXRoU21pbGVSaWdodBAt",
-            "EhQKEG1vdXRoU3RyZXRjaExlZnQQLhIVChFtb3V0aFN0cmV0Y2hSaWdodBAv",
-            "EhQKEG1vdXRoVXBwZXJVcExlZnQQMBIVChFtb3V0aFVwcGVyVXBSaWdodBAx",
-            "EhEKDW5vc2VTbmVlckxlZnQQMhISCg5ub3NlU25lZXJSaWdodBAzEg0KCXRv",
-            "bmd1ZU91dBA0YgZwcm90bzM="));
+            "LmhvbGlzdGljUG9zZS5GYWNlUmVzdWx0cyLoBAoNUG9zZUxhbmRtYXJrcxIp",
+            "CglsYW5kbWFya3MYASADKAsyFi5ob2xpc3RpY1Bvc2UuTGFuZG1hcmsiqwQK",
+            "DUxhbmRtYXJrSW5kZXgSCAoEbm9zZRAAEhAKDGxlZnRFeWVJbm5lchABEgsK",
+            "B2xlZnRFeWUQAhIQCgxsZWZ0RXllT3V0ZXIQAxIRCg1yaWdodEV5ZUlubmVy",
+            "EAQSDAoIcmlnaHRFeWUQBRIRCg1yaWdodEV5ZU91dGVyEAYSCwoHbGVmdEVh",
+            "chAHEgwKCHJpZ2h0RWFyEAgSDQoJbW91dGhMZWZ0EAkSDgoKbW91dGhSaWdo",
+            "dBAKEhAKDGxlZnRTaG91bGRlchALEhEKDXJpZ2h0U2hvdWxkZXIQDBINCgls",
+            "ZWZ0RWxib3cQDRIOCgpyaWdodEVsYm93EA4SDQoJbGVmdFdyaXN0EA8SDgoK",
+            "cmlnaHRXcmlzdBAQEg0KCWxlZnRQaW5reRAREg4KCnJpZ2h0UGlua3kQEhIN",
+            "CglsZWZ0SW5kZXgQExIOCgpyaWdodEluZGV4EBQSDQoJbGVmdFRodW1iEBUS",
+            "DgoKcmlnaHRUaHVtYhAWEgsKB2xlZnRIaXAQFxIMCghyaWdodEhpcBAYEgwK",
+            "CGxlZnRLbmVlEBkSDQoJcmlnaHRLbmVlEBoSDQoJbGVmdEFua2xlEBsSDgoK",
+            "cmlnaHRBbmtsZRAcEgwKCGxlZnRIZWVsEB0SDQoJcmlnaHRIZWVsEB4SEQoN",
+            "bGVmdEZvb3RJbmRleBAfEhIKDnJpZ2h0Rm9vdEluZGV4ECASFgoScG9zZUxh",
+            "bmRtYXJrTGVuZ3RoECEizgMKDUhhbmRMYW5kbWFya3MSKQoJbGFuZG1hcmtz",
+            "GAEgAygLMhYuaG9saXN0aWNQb3NlLkxhbmRtYXJrIpEDCg1MYW5kbWFya0lu",
+            "ZGV4EgkKBXdyaXN0EAASDAoIdGh1bWJDTUMQARIMCgh0aHVtYk1DUBACEgsK",
+            "B3RodW1iSVAQAxIMCgh0aHVtYlRJUBAEEhIKDmluZGV4RmluZ2VyTUNQEAUS",
+            "EgoOaW5kZXhGaW5nZXJQSVAQBhISCg5pbmRleEZpbmdlckRJUBAHEhIKDmlu",
+            "ZGV4RmluZ2VyVElQEAgSEwoPbWlkZGxlRmluZ2VyTUNQEAkSEwoPbWlkZGxl",
+            "RmluZ2VyUElQEAoSEwoPbWlkZGxlRmluZ2VyRElQEAsSEwoPbWlkZGxlRmlu",
+            "Z2VyVElQEAwSEQoNcmluZ0Zpbmdlck1DUBANEhEKDXJpbmdGaW5nZXJQSVAQ",
+            "DhIRCg1yaW5nRmluZ2VyRElQEA8SEQoNcmluZ0ZpbmdlclRJUBAQEgwKCHBp",
+            "bmt5TUNQEBESDAoIcGlua3lQSVAQEhIMCghwaW5reURJUBATEgwKCHBpbmt5",
+            "VElQEBQSFgoSaGFuZExhbmRtYXJrTGVuZ3RoEBUiaAoLRmFjZVJlc3VsdHMS",
+            "KQoJbGFuZG1hcmtzGAEgAygLMhYuaG9saXN0aWNQb3NlLkxhbmRtYXJrEi4K",
+            "C2JsZW5kc2hhcGVzGAIgASgLMhkuaG9saXN0aWNQb3NlLkJsZW5kc2hhcGVz",
+            "IsQICgtCbGVuZHNoYXBlcxIOCgZzY29yZXMYASADKAIipAgKEEJsZW5kc2hh",
+            "cGVzSW5kZXgSDAoIX25ldXRyYWwQABIQCgxicm93RG93bkxlZnQQARIRCg1i",
+            "cm93RG93blJpZ2h0EAISDwoLYnJvd0lubmVyVXAQAxITCg9icm93T3V0ZXJV",
+            "cExlZnQQBBIUChBicm93T3V0ZXJVcFJpZ2h0EAUSDQoJY2hlZWtQdWZmEAYS",
+            "EwoPY2hlZWtTcXVpbnRMZWZ0EAcSFAoQY2hlZWtTcXVpbnRSaWdodBAIEhAK",
+            "DGV5ZUJsaW5rTGVmdBAJEhEKDWV5ZUJsaW5rUmlnaHQQChITCg9leWVMb29r",
+            "RG93bkxlZnQQCxIUChBleWVMb29rRG93blJpZ2h0EAwSEQoNZXllTG9va0lu",
+            "TGVmdBANEhIKDmV5ZUxvb2tJblJpZ2h0EA4SEgoOZXllTG9va091dExlZnQQ",
+            "DxITCg9leWVMb29rT3V0UmlnaHQQEBIRCg1leWVMb29rVXBMZWZ0EBESEgoO",
+            "ZXllTG9va1VwUmlnaHQQEhIRCg1leWVTcXVpbnRMZWZ0EBMSEgoOZXllU3F1",
+            "aW50UmlnaHQQFBIPCgtleWVXaWRlTGVmdBAVEhAKDGV5ZVdpZGVSaWdodBAW",
+            "Eg4KCmphd0ZvcndhcmQQFxILCgdqYXdMZWZ0EBgSCwoHamF3T3BlbhAZEgwK",
+            "CGphd1JpZ2h0EBoSDgoKbW91dGhDbG9zZRAbEhMKD21vdXRoRGltcGxlTGVm",
+            "dBAcEhQKEG1vdXRoRGltcGxlUmlnaHQQHRISCg5tb3V0aEZyb3duTGVmdBAe",
+            "EhMKD21vdXRoRnJvd25SaWdodBAfEg8KC21vdXRoRnVubmVsECASDQoJbW91",
+            "dGhMZWZ0ECESFgoSbW91dGhMb3dlckRvd25MZWZ0ECISFwoTbW91dGhMb3dl",
+            "ckRvd25SaWdodBAjEhIKDm1vdXRoUHJlc3NMZWZ0ECQSEwoPbW91dGhQcmVz",
+            "c1JpZ2h0ECUSDwoLbW91dGhQdWNrZXIQJhIOCgptb3V0aFJpZ2h0ECcSEgoO",
+            "bW91dGhSb2xsTG93ZXIQKBISCg5tb3V0aFJvbGxVcHBlchApEhMKD21vdXRo",
+            "U2hydWdMb3dlchAqEhMKD21vdXRoU2hydWdVcHBlchArEhIKDm1vdXRoU21p",
+            "bGVMZWZ0ECwSEwoPbW91dGhTbWlsZVJpZ2h0EC0SFAoQbW91dGhTdHJldGNo",
+            "TGVmdBAuEhUKEW1vdXRoU3RyZXRjaFJpZ2h0EC8SFAoQbW91dGhVcHBlclVw",
+            "TGVmdBAwEhUKEW1vdXRoVXBwZXJVcFJpZ2h0EDESEQoNbm9zZVNuZWVyTGVm",
+            "dBAyEhIKDm5vc2VTbmVlclJpZ2h0EDMSDQoJdG9uZ3VlT3V0EDQSFAoQYmxl",
+            "bmRzaGFwZUxlbmd0aBA1YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.Landmark), global::HolisticPose.Landmark.Parser, new[]{ "X", "Y", "Z", "Confidence" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.HolisticLandmarks), global::HolisticPose.HolisticLandmarks.Parser, new[]{ "PoseLandmarks", "LeftHandLandmarks", "RightHandLandmarks", "FaceResults" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.PoseLandmarks), global::HolisticPose.PoseLandmarks.Parser, new[]{ "Landmarks", "Length" }, null, new[]{ typeof(global::HolisticPose.PoseLandmarks.Types.LandmarkIndex) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.HandLandmarks), global::HolisticPose.HandLandmarks.Parser, new[]{ "Landmarks", "Length" }, null, new[]{ typeof(global::HolisticPose.HandLandmarks.Types.LandmarkIndex) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.FaceResults), global::HolisticPose.FaceResults.Parser, new[]{ "Landmarks", "Blendshapes", "Length" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.Blendshapes), global::HolisticPose.Blendshapes.Parser, new[]{ "Scores", "Length" }, null, new[]{ typeof(global::HolisticPose.Blendshapes.Types.BlendshapesIndex) }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.PoseLandmarks), global::HolisticPose.PoseLandmarks.Parser, new[]{ "Landmarks" }, null, new[]{ typeof(global::HolisticPose.PoseLandmarks.Types.LandmarkIndex) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.HandLandmarks), global::HolisticPose.HandLandmarks.Parser, new[]{ "Landmarks" }, null, new[]{ typeof(global::HolisticPose.HandLandmarks.Types.LandmarkIndex) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.FaceResults), global::HolisticPose.FaceResults.Parser, new[]{ "Landmarks", "Blendshapes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HolisticPose.Blendshapes), global::HolisticPose.Blendshapes.Parser, new[]{ "Scores" }, null, new[]{ typeof(global::HolisticPose.Blendshapes.Types.BlendshapesIndex) }, null, null)
           }));
     }
     #endregion
@@ -772,7 +772,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PoseLandmarks(PoseLandmarks other) : this() {
       landmarks_ = other.landmarks_.Clone();
-      length_ = other.length_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -793,18 +792,6 @@ namespace HolisticPose {
       get { return landmarks_; }
     }
 
-    /// <summary>Field number for the "length" field.</summary>
-    public const int LengthFieldNumber = 2;
-    private int length_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Length {
-      get { return length_; }
-      set {
-        length_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -821,7 +808,6 @@ namespace HolisticPose {
         return true;
       }
       if(!landmarks_.Equals(other.landmarks_)) return false;
-      if (Length != other.Length) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -830,7 +816,6 @@ namespace HolisticPose {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= landmarks_.GetHashCode();
-      if (Length != 0) hash ^= Length.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -850,10 +835,6 @@ namespace HolisticPose {
       output.WriteRawMessage(this);
     #else
       landmarks_.WriteTo(output, _repeated_landmarks_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -865,10 +846,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       landmarks_.WriteTo(ref output, _repeated_landmarks_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -880,9 +857,6 @@ namespace HolisticPose {
     public int CalculateSize() {
       int size = 0;
       size += landmarks_.CalculateSize(_repeated_landmarks_codec);
-      if (Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Length);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -896,9 +870,6 @@ namespace HolisticPose {
         return;
       }
       landmarks_.Add(other.landmarks_);
-      if (other.Length != 0) {
-        Length = other.Length;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -918,10 +889,6 @@ namespace HolisticPose {
             landmarks_.AddEntriesFrom(input, _repeated_landmarks_codec);
             break;
           }
-          case 16: {
-            Length = input.ReadInt32();
-            break;
-          }
         }
       }
     #endif
@@ -939,10 +906,6 @@ namespace HolisticPose {
             break;
           case 10: {
             landmarks_.AddEntriesFrom(ref input, _repeated_landmarks_codec);
-            break;
-          }
-          case 16: {
-            Length = input.ReadInt32();
             break;
           }
         }
@@ -989,6 +952,7 @@ namespace HolisticPose {
         [pbr::OriginalName("rightHeel")] RightHeel = 30,
         [pbr::OriginalName("leftFootIndex")] LeftFootIndex = 31,
         [pbr::OriginalName("rightFootIndex")] RightFootIndex = 32,
+        [pbr::OriginalName("poseLandmarkLength")] PoseLandmarkLength = 33,
       }
 
     }
@@ -1031,7 +995,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public HandLandmarks(HandLandmarks other) : this() {
       landmarks_ = other.landmarks_.Clone();
-      length_ = other.length_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1052,18 +1015,6 @@ namespace HolisticPose {
       get { return landmarks_; }
     }
 
-    /// <summary>Field number for the "length" field.</summary>
-    public const int LengthFieldNumber = 2;
-    private int length_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Length {
-      get { return length_; }
-      set {
-        length_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1080,7 +1031,6 @@ namespace HolisticPose {
         return true;
       }
       if(!landmarks_.Equals(other.landmarks_)) return false;
-      if (Length != other.Length) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1089,7 +1039,6 @@ namespace HolisticPose {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= landmarks_.GetHashCode();
-      if (Length != 0) hash ^= Length.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1109,10 +1058,6 @@ namespace HolisticPose {
       output.WriteRawMessage(this);
     #else
       landmarks_.WriteTo(output, _repeated_landmarks_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1124,10 +1069,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       landmarks_.WriteTo(ref output, _repeated_landmarks_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1139,9 +1080,6 @@ namespace HolisticPose {
     public int CalculateSize() {
       int size = 0;
       size += landmarks_.CalculateSize(_repeated_landmarks_codec);
-      if (Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Length);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1155,9 +1093,6 @@ namespace HolisticPose {
         return;
       }
       landmarks_.Add(other.landmarks_);
-      if (other.Length != 0) {
-        Length = other.Length;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1177,10 +1112,6 @@ namespace HolisticPose {
             landmarks_.AddEntriesFrom(input, _repeated_landmarks_codec);
             break;
           }
-          case 16: {
-            Length = input.ReadInt32();
-            break;
-          }
         }
       }
     #endif
@@ -1198,10 +1129,6 @@ namespace HolisticPose {
             break;
           case 10: {
             landmarks_.AddEntriesFrom(ref input, _repeated_landmarks_codec);
-            break;
-          }
-          case 16: {
-            Length = input.ReadInt32();
             break;
           }
         }
@@ -1236,6 +1163,7 @@ namespace HolisticPose {
         [pbr::OriginalName("pinkyPIP")] PinkyPip = 18,
         [pbr::OriginalName("pinkyDIP")] PinkyDip = 19,
         [pbr::OriginalName("pinkyTIP")] PinkyTip = 20,
+        [pbr::OriginalName("handLandmarkLength")] HandLandmarkLength = 21,
       }
 
     }
@@ -1279,7 +1207,6 @@ namespace HolisticPose {
     public FaceResults(FaceResults other) : this() {
       landmarks_ = other.landmarks_.Clone();
       blendshapes_ = other.blendshapes_ != null ? other.blendshapes_.Clone() : null;
-      length_ = other.length_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1312,18 +1239,6 @@ namespace HolisticPose {
       }
     }
 
-    /// <summary>Field number for the "length" field.</summary>
-    public const int LengthFieldNumber = 3;
-    private int length_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Length {
-      get { return length_; }
-      set {
-        length_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1341,7 +1256,6 @@ namespace HolisticPose {
       }
       if(!landmarks_.Equals(other.landmarks_)) return false;
       if (!object.Equals(Blendshapes, other.Blendshapes)) return false;
-      if (Length != other.Length) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1351,7 +1265,6 @@ namespace HolisticPose {
       int hash = 1;
       hash ^= landmarks_.GetHashCode();
       if (blendshapes_ != null) hash ^= Blendshapes.GetHashCode();
-      if (Length != 0) hash ^= Length.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1375,10 +1288,6 @@ namespace HolisticPose {
         output.WriteRawTag(18);
         output.WriteMessage(Blendshapes);
       }
-      if (Length != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1394,10 +1303,6 @@ namespace HolisticPose {
         output.WriteRawTag(18);
         output.WriteMessage(Blendshapes);
       }
-      if (Length != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1411,9 +1316,6 @@ namespace HolisticPose {
       size += landmarks_.CalculateSize(_repeated_landmarks_codec);
       if (blendshapes_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Blendshapes);
-      }
-      if (Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Length);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1433,9 +1335,6 @@ namespace HolisticPose {
           Blendshapes = new global::HolisticPose.Blendshapes();
         }
         Blendshapes.MergeFrom(other.Blendshapes);
-      }
-      if (other.Length != 0) {
-        Length = other.Length;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1463,10 +1362,6 @@ namespace HolisticPose {
             input.ReadMessage(Blendshapes);
             break;
           }
-          case 24: {
-            Length = input.ReadInt32();
-            break;
-          }
         }
       }
     #endif
@@ -1491,10 +1386,6 @@ namespace HolisticPose {
               Blendshapes = new global::HolisticPose.Blendshapes();
             }
             input.ReadMessage(Blendshapes);
-            break;
-          }
-          case 24: {
-            Length = input.ReadInt32();
             break;
           }
         }
@@ -1539,7 +1430,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Blendshapes(Blendshapes other) : this() {
       scores_ = other.scores_.Clone();
-      length_ = other.length_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1560,18 +1450,6 @@ namespace HolisticPose {
       get { return scores_; }
     }
 
-    /// <summary>Field number for the "length" field.</summary>
-    public const int LengthFieldNumber = 2;
-    private int length_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Length {
-      get { return length_; }
-      set {
-        length_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1588,7 +1466,6 @@ namespace HolisticPose {
         return true;
       }
       if(!scores_.Equals(other.scores_)) return false;
-      if (Length != other.Length) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1597,7 +1474,6 @@ namespace HolisticPose {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= scores_.GetHashCode();
-      if (Length != 0) hash ^= Length.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1617,10 +1493,6 @@ namespace HolisticPose {
       output.WriteRawMessage(this);
     #else
       scores_.WriteTo(output, _repeated_scores_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1632,10 +1504,6 @@ namespace HolisticPose {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       scores_.WriteTo(ref output, _repeated_scores_codec);
-      if (Length != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Length);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1647,9 +1515,6 @@ namespace HolisticPose {
     public int CalculateSize() {
       int size = 0;
       size += scores_.CalculateSize(_repeated_scores_codec);
-      if (Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Length);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1663,9 +1528,6 @@ namespace HolisticPose {
         return;
       }
       scores_.Add(other.scores_);
-      if (other.Length != 0) {
-        Length = other.Length;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1686,10 +1548,6 @@ namespace HolisticPose {
             scores_.AddEntriesFrom(input, _repeated_scores_codec);
             break;
           }
-          case 16: {
-            Length = input.ReadInt32();
-            break;
-          }
         }
       }
     #endif
@@ -1708,10 +1566,6 @@ namespace HolisticPose {
           case 10:
           case 13: {
             scores_.AddEntriesFrom(ref input, _repeated_scores_codec);
-            break;
-          }
-          case 16: {
-            Length = input.ReadInt32();
             break;
           }
         }
@@ -1778,6 +1632,7 @@ namespace HolisticPose {
         [pbr::OriginalName("noseSneerLeft")] NoseSneerLeft = 50,
         [pbr::OriginalName("noseSneerRight")] NoseSneerRight = 51,
         [pbr::OriginalName("tongueOut")] TongueOut = 52,
+        [pbr::OriginalName("blendshapeLength")] BlendshapeLength = 53,
       }
 
     }
