@@ -88,7 +88,7 @@ message HandLandmarks{
 message FaceResults{
   repeated Landmark landmarks = 1;
   Blendshapes blendshapes = 2;
-  int32 landamrkListLength = 3;
+  int32 length = 3;
 }
 
 message Blendshapes {
