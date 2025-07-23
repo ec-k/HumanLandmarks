@@ -1,6 +1,6 @@
 {
     "name": "HumanLandmarks",
-    "rootNamespace": "",
+    "rootNamespace": "HolisticProto",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
