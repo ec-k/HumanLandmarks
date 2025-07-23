@@ -1,0 +1,19 @@
+{
+  "name": "com.ec2k.humanlandmarks",
+  "version": "0.2.0",
+  "displayName": "HumanLandmarks",
+  "description": "",
+  "unity": "2022.3",
+  "keywords": [
+    "mediapipe"
+  ],
+  "author": {
+    "name": "EC-K",
+    "url": "https://github.com/ec-k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ec-k/HumanLandmarks"
+  },
+  "license": "MIT"
+}
