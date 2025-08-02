@@ -26,6 +26,6 @@ message HandLandmarks{
     pinkyPIP = 18;
     pinkyDIP = 19;
     pinkyTIP = 20;
-    handLandmarkLength = 21;
+    length = 21;
   }
 }

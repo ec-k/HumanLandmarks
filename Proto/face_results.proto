@@ -63,6 +63,6 @@ message Blendshapes {
     noseSneerLeft = 50;
     noseSneerRight = 51;
     tongueOut = 52;
-    blendshapeLength = 53;
+    length = 53;
   }
 }

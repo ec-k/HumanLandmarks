@@ -38,6 +38,6 @@ message PoseLandmarks {
     rightHeel = 30;
     leftFootIndex = 31;
     rightFootIndex = 32;
-    poseLandmarkLength = 33;
+    length = 33;
   }
 }

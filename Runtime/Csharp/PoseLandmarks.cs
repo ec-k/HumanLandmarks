@@ -25,8 +25,8 @@ namespace HumanLandmarks {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChRwb3NlX2xhbmRtYXJrcy5wcm90bxIOaHVtYW5MYW5kbWFya3MaDmxhbmRt",
-            "YXJrLnByb3RvIuoECg1Qb3NlTGFuZG1hcmtzEisKCWxhbmRtYXJrcxgBIAMo",
-            "CzIYLmh1bWFuTGFuZG1hcmtzLkxhbmRtYXJrIqsECg1MYW5kbWFya0luZGV4",
+            "YXJrLnByb3RvIt4ECg1Qb3NlTGFuZG1hcmtzEisKCWxhbmRtYXJrcxgBIAMo",
+            "CzIYLmh1bWFuTGFuZG1hcmtzLkxhbmRtYXJrIp8ECg1MYW5kbWFya0luZGV4",
             "EggKBG5vc2UQABIQCgxsZWZ0RXllSW5uZXIQARILCgdsZWZ0RXllEAISEAoM",
             "bGVmdEV5ZU91dGVyEAMSEQoNcmlnaHRFeWVJbm5lchAEEgwKCHJpZ2h0RXll",
             "EAUSEQoNcmlnaHRFeWVPdXRlchAGEgsKB2xlZnRFYXIQBxIMCghyaWdodEVh",
@@ -38,8 +38,7 @@ namespace HumanLandmarks {
             "FhILCgdsZWZ0SGlwEBcSDAoIcmlnaHRIaXAQGBIMCghsZWZ0S25lZRAZEg0K",
             "CXJpZ2h0S25lZRAaEg0KCWxlZnRBbmtsZRAbEg4KCnJpZ2h0QW5rbGUQHBIM",
             "CghsZWZ0SGVlbBAdEg0KCXJpZ2h0SGVlbBAeEhEKDWxlZnRGb290SW5kZXgQ",
-            "HxISCg5yaWdodEZvb3RJbmRleBAgEhYKEnBvc2VMYW5kbWFya0xlbmd0aBAh",
-            "YgZwcm90bzM="));
+            "HxISCg5yaWdodEZvb3RJbmRleBAgEgoKBmxlbmd0aBAhYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HumanLandmarks.LandmarkReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -274,7 +273,7 @@ namespace HumanLandmarks {
         [pbr::OriginalName("rightHeel")] RightHeel = 30,
         [pbr::OriginalName("leftFootIndex")] LeftFootIndex = 31,
         [pbr::OriginalName("rightFootIndex")] RightFootIndex = 32,
-        [pbr::OriginalName("poseLandmarkLength")] PoseLandmarkLength = 33,
+        [pbr::OriginalName("length")] Length = 33,
       }
 
     }
