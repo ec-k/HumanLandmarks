@@ -37,5 +37,6 @@ message KinectPoseLandmarks{
     EAR_LEFT = 29;
     EYE_RIGHT = 30;
     EAR_RIGHT = 31;
+    LENGTH = 32;
   }
 }
