@@ -1,8 +1,8 @@
 syntax = "proto3";
 package holisticPose;
-import "Runtime/kinect_pose_landmarks.proto";
-import "Runtime/hand_landmarks.proto";
-import "Runtime/face_results.proto";
+import "kinect_pose_landmarks.proto";
+import "hand_landmarks.proto";
+import "face_results.proto";
 
 message HolisticLandmarks{
   KinectPoseLandmarks poseLandmarks = 1;

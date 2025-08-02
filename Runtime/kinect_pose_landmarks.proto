@@ -1,6 +1,6 @@
 syntax = "proto3";
 package holisticPose;
-import "Runtime/landmark.proto";
+import "landmark.proto";
 
 message KinectPoseLandmarks{
   repeated Landmark landmarks = 1;
