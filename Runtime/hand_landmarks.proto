@@ -1,0 +1,31 @@
+syntax = "proto3";
+package holisticPose;
+import "Runtime/landmark.proto";
+
+message HandLandmarks{
+  repeated Landmark landmarks = 1;
+  enum LandmarkIndex {
+    wrist = 0;
+    thumbCMC = 1;
+    thumbMCP = 2;
+    thumbIP = 3;
+    thumbTIP = 4;
+    indexFingerMCP = 5;
+    indexFingerPIP = 6;
+    indexFingerDIP = 7;
+    indexFingerTIP = 8;
+    middleFingerMCP = 9;
+    middleFingerPIP = 10;
+    middleFingerDIP = 11;
+    middleFingerTIP = 12;
+    ringFingerMCP = 13;
+    ringFingerPIP = 14;
+    ringFingerDIP = 15;
+    ringFingerTIP = 16;
+    pinkyMCP = 17;
+    pinkyPIP = 18;
+    pinkyDIP = 19;
+    pinkyTIP = 20;
+    handLandmarkLength = 21;
+  }
+}

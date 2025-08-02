@@ -1,0 +1,10 @@
+syntax = "proto3";
+package holisticPose;
+
+message Landmark {
+  // string name = 1;
+  float x = 2;
+  float y = 3;
+  float z = 4;
+  float confidence = 6;
+}
