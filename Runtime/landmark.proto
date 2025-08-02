@@ -1,5 +1,5 @@
 syntax = "proto3";
-package holisticPose;
+package humanLandmarks;
 
 message Landmark {
   Position position = 1;

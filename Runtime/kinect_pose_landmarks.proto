@@ -1,5 +1,5 @@
 syntax = "proto3";
-package holisticPose;
+package humanLandmarks;
 import "landmark.proto";
 
 message KinectPoseLandmarks{
