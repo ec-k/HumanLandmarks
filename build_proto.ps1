@@ -15,7 +15,7 @@ if (-not (Test-Path -Path $CSHARP_OUT_DIR -PathType Container)){
 }
 
 Write-Host "Generating Python code..."
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/holistic_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/landmark.proto"
 protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/kinect_pose_landmarks.proto"
 protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/pose_landmarks.proto"
 protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/hand_landmarks.proto"
