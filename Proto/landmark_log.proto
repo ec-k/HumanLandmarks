@@ -2,7 +2,7 @@ syntax = "proto3";
 package humanLandmarks.log;
 import "holistic_landmarks.proto";
 
-message CoordinateSystemInfo {
+message CoordinateSystem {
     string unit = 1;            // e.g. "meter", "milli meter"
     Direction up_axis = 2;
     Direction right_axis = 3;
@@ -26,7 +26,8 @@ message CoordinateSystemInfo {
 // recorded once in head of the log file
 message LogHeader {
     string log_schema_version = 1;
-    float capture_framerate_fps = 5;
+    float capture_framerate_fps = 2;
+    CoordinateSystem coordinate_system = 3;
 }
 
 // recorded in each of frame

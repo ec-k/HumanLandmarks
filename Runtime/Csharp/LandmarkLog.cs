@@ -25,25 +25,26 @@ namespace HumanLandmarks.Log {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChJsYW5kbWFya19sb2cucHJvdG8SEmh1bWFuTGFuZG1hcmtzLmxvZxoYaG9s",
-            "aXN0aWNfbGFuZG1hcmtzLnByb3RvIoMDChRDb29yZGluYXRlU3lzdGVtSW5m",
-            "bxIMCgR1bml0GAEgASgJEkMKB3VwX2F4aXMYAiABKA4yMi5odW1hbkxhbmRt",
-            "YXJrcy5sb2cuQ29vcmRpbmF0ZVN5c3RlbUluZm8uRGlyZWN0aW9uEkYKCnJp",
-            "Z2h0X2F4aXMYAyABKA4yMi5odW1hbkxhbmRtYXJrcy5sb2cuQ29vcmRpbmF0",
-            "ZVN5c3RlbUluZm8uRGlyZWN0aW9uEkcKCmhhbmRlZG5lc3MYBCABKA4yMy5o",
-            "dW1hbkxhbmRtYXJrcy5sb2cuQ29vcmRpbmF0ZVN5c3RlbUluZm8uSGFuZGVk",
-            "bmVzcyJWCglEaXJlY3Rpb24SCgoGWF9QTFVTEAASCwoHWF9NSU5VUxABEgoK",
-            "BllfUExVUxACEgsKB1lfTUlOVVMQAxIKCgZaX1BMVVMQBBILCgdaX01JTlVT",
-            "EAUiLwoKSGFuZGVkbmVzcxIQCgxSSUdIVF9IQU5ERUQQABIPCgtMRUZUX0hB",
-            "TkRFRBABIkYKCUxvZ0hlYWRlchIaChJsb2dfc2NoZW1hX3ZlcnNpb24YASAB",
-            "KAkSHQoVY2FwdHVyZV9mcmFtZXJhdGVfZnBzGAUgASgCInkKDExvZ0ZyYW1l",
-            "RGF0YRIUCgx0aW1lc3RhbXBfbXMYASABKAQSFAoMZnJhbWVfbnVtYmVyGAIg",
-            "ASgNEj0KEmhvbGlzdGljX2xhbmRtYXJrcxgDIAEoCzIhLmh1bWFuTGFuZG1h",
-            "cmtzLkhvbGlzdGljTGFuZG1hcmtzYgZwcm90bzM="));
+            "aXN0aWNfbGFuZG1hcmtzLnByb3RvIvMCChBDb29yZGluYXRlU3lzdGVtEgwK",
+            "BHVuaXQYASABKAkSPwoHdXBfYXhpcxgCIAEoDjIuLmh1bWFuTGFuZG1hcmtz",
+            "LmxvZy5Db29yZGluYXRlU3lzdGVtLkRpcmVjdGlvbhJCCgpyaWdodF9heGlz",
+            "GAMgASgOMi4uaHVtYW5MYW5kbWFya3MubG9nLkNvb3JkaW5hdGVTeXN0ZW0u",
+            "RGlyZWN0aW9uEkMKCmhhbmRlZG5lc3MYBCABKA4yLy5odW1hbkxhbmRtYXJr",
+            "cy5sb2cuQ29vcmRpbmF0ZVN5c3RlbS5IYW5kZWRuZXNzIlYKCURpcmVjdGlv",
+            "bhIKCgZYX1BMVVMQABILCgdYX01JTlVTEAESCgoGWV9QTFVTEAISCwoHWV9N",
+            "SU5VUxADEgoKBlpfUExVUxAEEgsKB1pfTUlOVVMQBSIvCgpIYW5kZWRuZXNz",
+            "EhAKDFJJR0hUX0hBTkRFRBAAEg8KC0xFRlRfSEFOREVEEAEihwEKCUxvZ0hl",
+            "YWRlchIaChJsb2dfc2NoZW1hX3ZlcnNpb24YASABKAkSHQoVY2FwdHVyZV9m",
+            "cmFtZXJhdGVfZnBzGAIgASgCEj8KEWNvb3JkaW5hdGVfc3lzdGVtGAMgASgL",
+            "MiQuaHVtYW5MYW5kbWFya3MubG9nLkNvb3JkaW5hdGVTeXN0ZW0ieQoMTG9n",
+            "RnJhbWVEYXRhEhQKDHRpbWVzdGFtcF9tcxgBIAEoBBIUCgxmcmFtZV9udW1i",
+            "ZXIYAiABKA0SPQoSaG9saXN0aWNfbGFuZG1hcmtzGAMgASgLMiEuaHVtYW5M",
+            "YW5kbWFya3MuSG9saXN0aWNMYW5kbWFya3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HumanLandmarks.HolisticLandmarksReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HumanLandmarks.Log.CoordinateSystemInfo), global::HumanLandmarks.Log.CoordinateSystemInfo.Parser, new[]{ "Unit", "UpAxis", "RightAxis", "Handedness" }, null, new[]{ typeof(global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction), typeof(global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness) }, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HumanLandmarks.Log.LogHeader), global::HumanLandmarks.Log.LogHeader.Parser, new[]{ "LogSchemaVersion", "CaptureFramerateFps" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HumanLandmarks.Log.CoordinateSystem), global::HumanLandmarks.Log.CoordinateSystem.Parser, new[]{ "Unit", "UpAxis", "RightAxis", "Handedness" }, null, new[]{ typeof(global::HumanLandmarks.Log.CoordinateSystem.Types.Direction), typeof(global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HumanLandmarks.Log.LogHeader), global::HumanLandmarks.Log.LogHeader.Parser, new[]{ "LogSchemaVersion", "CaptureFramerateFps", "CoordinateSystem" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HumanLandmarks.Log.LogFrameData), global::HumanLandmarks.Log.LogFrameData.Parser, new[]{ "TimestampMs", "FrameNumber", "HolisticLandmarks" }, null, null, null, null)
           }));
     }
@@ -52,16 +53,16 @@ namespace HumanLandmarks.Log {
   }
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class CoordinateSystemInfo : pb::IMessage<CoordinateSystemInfo>
+  public sealed partial class CoordinateSystem : pb::IMessage<CoordinateSystem>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<CoordinateSystemInfo> _parser = new pb::MessageParser<CoordinateSystemInfo>(() => new CoordinateSystemInfo());
+    private static readonly pb::MessageParser<CoordinateSystem> _parser = new pb::MessageParser<CoordinateSystem>(() => new CoordinateSystem());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<CoordinateSystemInfo> Parser { get { return _parser; } }
+    public static pb::MessageParser<CoordinateSystem> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -77,7 +78,7 @@ namespace HumanLandmarks.Log {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CoordinateSystemInfo() {
+    public CoordinateSystem() {
       OnConstruction();
     }
 
@@ -85,7 +86,7 @@ namespace HumanLandmarks.Log {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CoordinateSystemInfo(CoordinateSystemInfo other) : this() {
+    public CoordinateSystem(CoordinateSystem other) : this() {
       unit_ = other.unit_;
       upAxis_ = other.upAxis_;
       rightAxis_ = other.rightAxis_;
@@ -95,8 +96,8 @@ namespace HumanLandmarks.Log {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public CoordinateSystemInfo Clone() {
-      return new CoordinateSystemInfo(this);
+    public CoordinateSystem Clone() {
+      return new CoordinateSystem(this);
     }
 
     /// <summary>Field number for the "unit" field.</summary>
@@ -116,10 +117,10 @@ namespace HumanLandmarks.Log {
 
     /// <summary>Field number for the "up_axis" field.</summary>
     public const int UpAxisFieldNumber = 2;
-    private global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction upAxis_ = global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus;
+    private global::HumanLandmarks.Log.CoordinateSystem.Types.Direction upAxis_ = global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction UpAxis {
+    public global::HumanLandmarks.Log.CoordinateSystem.Types.Direction UpAxis {
       get { return upAxis_; }
       set {
         upAxis_ = value;
@@ -128,10 +129,10 @@ namespace HumanLandmarks.Log {
 
     /// <summary>Field number for the "right_axis" field.</summary>
     public const int RightAxisFieldNumber = 3;
-    private global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction rightAxis_ = global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus;
+    private global::HumanLandmarks.Log.CoordinateSystem.Types.Direction rightAxis_ = global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction RightAxis {
+    public global::HumanLandmarks.Log.CoordinateSystem.Types.Direction RightAxis {
       get { return rightAxis_; }
       set {
         rightAxis_ = value;
@@ -140,13 +141,13 @@ namespace HumanLandmarks.Log {
 
     /// <summary>Field number for the "handedness" field.</summary>
     public const int HandednessFieldNumber = 4;
-    private global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness handedness_ = global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded;
+    private global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness handedness_ = global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded;
     /// <summary>
     /// For 2D estimations, this value should be disregarded.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness Handedness {
+    public global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness Handedness {
       get { return handedness_; }
       set {
         handedness_ = value;
@@ -156,12 +157,12 @@ namespace HumanLandmarks.Log {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as CoordinateSystemInfo);
+      return Equals(other as CoordinateSystem);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(CoordinateSystemInfo other) {
+    public bool Equals(CoordinateSystem other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -180,9 +181,9 @@ namespace HumanLandmarks.Log {
     public override int GetHashCode() {
       int hash = 1;
       if (Unit.Length != 0) hash ^= Unit.GetHashCode();
-      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) hash ^= UpAxis.GetHashCode();
-      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) hash ^= RightAxis.GetHashCode();
-      if (Handedness != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded) hash ^= Handedness.GetHashCode();
+      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) hash ^= UpAxis.GetHashCode();
+      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) hash ^= RightAxis.GetHashCode();
+      if (Handedness != global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded) hash ^= Handedness.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -205,15 +206,15 @@ namespace HumanLandmarks.Log {
         output.WriteRawTag(10);
         output.WriteString(Unit);
       }
-      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         output.WriteRawTag(16);
         output.WriteEnum((int) UpAxis);
       }
-      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         output.WriteRawTag(24);
         output.WriteEnum((int) RightAxis);
       }
-      if (Handedness != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded) {
+      if (Handedness != global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Handedness);
       }
@@ -231,15 +232,15 @@ namespace HumanLandmarks.Log {
         output.WriteRawTag(10);
         output.WriteString(Unit);
       }
-      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         output.WriteRawTag(16);
         output.WriteEnum((int) UpAxis);
       }
-      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         output.WriteRawTag(24);
         output.WriteEnum((int) RightAxis);
       }
-      if (Handedness != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded) {
+      if (Handedness != global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Handedness);
       }
@@ -256,13 +257,13 @@ namespace HumanLandmarks.Log {
       if (Unit.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Unit);
       }
-      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (UpAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UpAxis);
       }
-      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (RightAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RightAxis);
       }
-      if (Handedness != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded) {
+      if (Handedness != global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Handedness);
       }
       if (_unknownFields != null) {
@@ -273,20 +274,20 @@ namespace HumanLandmarks.Log {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(CoordinateSystemInfo other) {
+    public void MergeFrom(CoordinateSystem other) {
       if (other == null) {
         return;
       }
       if (other.Unit.Length != 0) {
         Unit = other.Unit;
       }
-      if (other.UpAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (other.UpAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         UpAxis = other.UpAxis;
       }
-      if (other.RightAxis != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction.XPlus) {
+      if (other.RightAxis != global::HumanLandmarks.Log.CoordinateSystem.Types.Direction.XPlus) {
         RightAxis = other.RightAxis;
       }
-      if (other.Handedness != global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness.RightHanded) {
+      if (other.Handedness != global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness.RightHanded) {
         Handedness = other.Handedness;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -309,15 +310,15 @@ namespace HumanLandmarks.Log {
             break;
           }
           case 16: {
-            UpAxis = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction) input.ReadEnum();
+            UpAxis = (global::HumanLandmarks.Log.CoordinateSystem.Types.Direction) input.ReadEnum();
             break;
           }
           case 24: {
-            RightAxis = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction) input.ReadEnum();
+            RightAxis = (global::HumanLandmarks.Log.CoordinateSystem.Types.Direction) input.ReadEnum();
             break;
           }
           case 32: {
-            Handedness = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness) input.ReadEnum();
+            Handedness = (global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness) input.ReadEnum();
             break;
           }
         }
@@ -340,15 +341,15 @@ namespace HumanLandmarks.Log {
             break;
           }
           case 16: {
-            UpAxis = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction) input.ReadEnum();
+            UpAxis = (global::HumanLandmarks.Log.CoordinateSystem.Types.Direction) input.ReadEnum();
             break;
           }
           case 24: {
-            RightAxis = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Direction) input.ReadEnum();
+            RightAxis = (global::HumanLandmarks.Log.CoordinateSystem.Types.Direction) input.ReadEnum();
             break;
           }
           case 32: {
-            Handedness = (global::HumanLandmarks.Log.CoordinateSystemInfo.Types.Handedness) input.ReadEnum();
+            Handedness = (global::HumanLandmarks.Log.CoordinateSystem.Types.Handedness) input.ReadEnum();
             break;
           }
         }
@@ -357,7 +358,7 @@ namespace HumanLandmarks.Log {
     #endif
 
     #region Nested types
-    /// <summary>Container for nested types declared in the CoordinateSystemInfo message type.</summary>
+    /// <summary>Container for nested types declared in the CoordinateSystem message type.</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
@@ -420,6 +421,7 @@ namespace HumanLandmarks.Log {
     public LogHeader(LogHeader other) : this() {
       logSchemaVersion_ = other.logSchemaVersion_;
       captureFramerateFps_ = other.captureFramerateFps_;
+      coordinateSystem_ = other.coordinateSystem_ != null ? other.coordinateSystem_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -442,7 +444,7 @@ namespace HumanLandmarks.Log {
     }
 
     /// <summary>Field number for the "capture_framerate_fps" field.</summary>
-    public const int CaptureFramerateFpsFieldNumber = 5;
+    public const int CaptureFramerateFpsFieldNumber = 2;
     private float captureFramerateFps_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -450,6 +452,18 @@ namespace HumanLandmarks.Log {
       get { return captureFramerateFps_; }
       set {
         captureFramerateFps_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "coordinate_system" field.</summary>
+    public const int CoordinateSystemFieldNumber = 3;
+    private global::HumanLandmarks.Log.CoordinateSystem coordinateSystem_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::HumanLandmarks.Log.CoordinateSystem CoordinateSystem {
+      get { return coordinateSystem_; }
+      set {
+        coordinateSystem_ = value;
       }
     }
 
@@ -470,6 +484,7 @@ namespace HumanLandmarks.Log {
       }
       if (LogSchemaVersion != other.LogSchemaVersion) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CaptureFramerateFps, other.CaptureFramerateFps)) return false;
+      if (!object.Equals(CoordinateSystem, other.CoordinateSystem)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -479,6 +494,7 @@ namespace HumanLandmarks.Log {
       int hash = 1;
       if (LogSchemaVersion.Length != 0) hash ^= LogSchemaVersion.GetHashCode();
       if (CaptureFramerateFps != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CaptureFramerateFps);
+      if (coordinateSystem_ != null) hash ^= CoordinateSystem.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -502,8 +518,12 @@ namespace HumanLandmarks.Log {
         output.WriteString(LogSchemaVersion);
       }
       if (CaptureFramerateFps != 0F) {
-        output.WriteRawTag(45);
+        output.WriteRawTag(21);
         output.WriteFloat(CaptureFramerateFps);
+      }
+      if (coordinateSystem_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CoordinateSystem);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -520,8 +540,12 @@ namespace HumanLandmarks.Log {
         output.WriteString(LogSchemaVersion);
       }
       if (CaptureFramerateFps != 0F) {
-        output.WriteRawTag(45);
+        output.WriteRawTag(21);
         output.WriteFloat(CaptureFramerateFps);
+      }
+      if (coordinateSystem_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(CoordinateSystem);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -538,6 +562,9 @@ namespace HumanLandmarks.Log {
       }
       if (CaptureFramerateFps != 0F) {
         size += 1 + 4;
+      }
+      if (coordinateSystem_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CoordinateSystem);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -556,6 +583,12 @@ namespace HumanLandmarks.Log {
       }
       if (other.CaptureFramerateFps != 0F) {
         CaptureFramerateFps = other.CaptureFramerateFps;
+      }
+      if (other.coordinateSystem_ != null) {
+        if (coordinateSystem_ == null) {
+          CoordinateSystem = new global::HumanLandmarks.Log.CoordinateSystem();
+        }
+        CoordinateSystem.MergeFrom(other.CoordinateSystem);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -576,8 +609,15 @@ namespace HumanLandmarks.Log {
             LogSchemaVersion = input.ReadString();
             break;
           }
-          case 45: {
+          case 21: {
             CaptureFramerateFps = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            if (coordinateSystem_ == null) {
+              CoordinateSystem = new global::HumanLandmarks.Log.CoordinateSystem();
+            }
+            input.ReadMessage(CoordinateSystem);
             break;
           }
         }
@@ -599,8 +639,15 @@ namespace HumanLandmarks.Log {
             LogSchemaVersion = input.ReadString();
             break;
           }
-          case 45: {
+          case 21: {
             CaptureFramerateFps = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            if (coordinateSystem_ == null) {
+              CoordinateSystem = new global::HumanLandmarks.Log.CoordinateSystem();
+            }
+            input.ReadMessage(CoordinateSystem);
             break;
           }
         }

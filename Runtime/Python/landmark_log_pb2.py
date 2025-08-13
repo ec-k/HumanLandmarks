@@ -15,21 +15,21 @@ _sym_db = _symbol_database.Default()
 import holistic_landmarks_pb2 as holistic__landmarks__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12landmark_log.proto\x12\x12humanLandmarks.log\x1a\x18holistic_landmarks.proto\"\x83\x03\n\x14\x43oordinateSystemInfo\x12\x0c\n\x04unit\x18\x01 \x01(\t\x12\x43\n\x07up_axis\x18\x02 \x01(\x0e\x32\x32.humanLandmarks.log.CoordinateSystemInfo.Direction\x12\x46\n\nright_axis\x18\x03 \x01(\x0e\x32\x32.humanLandmarks.log.CoordinateSystemInfo.Direction\x12G\n\nhandedness\x18\x04 \x01(\x0e\x32\x33.humanLandmarks.log.CoordinateSystemInfo.Handedness\"V\n\tDirection\x12\n\n\x06X_PLUS\x10\x00\x12\x0b\n\x07X_MINUS\x10\x01\x12\n\n\x06Y_PLUS\x10\x02\x12\x0b\n\x07Y_MINUS\x10\x03\x12\n\n\x06Z_PLUS\x10\x04\x12\x0b\n\x07Z_MINUS\x10\x05\"/\n\nHandedness\x12\x10\n\x0cRIGHT_HANDED\x10\x00\x12\x0f\n\x0bLEFT_HANDED\x10\x01\"F\n\tLogHeader\x12\x1a\n\x12log_schema_version\x18\x01 \x01(\t\x12\x1d\n\x15\x63\x61pture_framerate_fps\x18\x05 \x01(\x02\"y\n\x0cLogFrameData\x12\x14\n\x0ctimestamp_ms\x18\x01 \x01(\x04\x12\x14\n\x0c\x66rame_number\x18\x02 \x01(\r\x12=\n\x12holistic_landmarks\x18\x03 \x01(\x0b\x32!.humanLandmarks.HolisticLandmarksb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12landmark_log.proto\x12\x12humanLandmarks.log\x1a\x18holistic_landmarks.proto\"\xf3\x02\n\x10\x43oordinateSystem\x12\x0c\n\x04unit\x18\x01 \x01(\t\x12?\n\x07up_axis\x18\x02 \x01(\x0e\x32..humanLandmarks.log.CoordinateSystem.Direction\x12\x42\n\nright_axis\x18\x03 \x01(\x0e\x32..humanLandmarks.log.CoordinateSystem.Direction\x12\x43\n\nhandedness\x18\x04 \x01(\x0e\x32/.humanLandmarks.log.CoordinateSystem.Handedness\"V\n\tDirection\x12\n\n\x06X_PLUS\x10\x00\x12\x0b\n\x07X_MINUS\x10\x01\x12\n\n\x06Y_PLUS\x10\x02\x12\x0b\n\x07Y_MINUS\x10\x03\x12\n\n\x06Z_PLUS\x10\x04\x12\x0b\n\x07Z_MINUS\x10\x05\"/\n\nHandedness\x12\x10\n\x0cRIGHT_HANDED\x10\x00\x12\x0f\n\x0bLEFT_HANDED\x10\x01\"\x87\x01\n\tLogHeader\x12\x1a\n\x12log_schema_version\x18\x01 \x01(\t\x12\x1d\n\x15\x63\x61pture_framerate_fps\x18\x02 \x01(\x02\x12?\n\x11\x63oordinate_system\x18\x03 \x01(\x0b\x32$.humanLandmarks.log.CoordinateSystem\"y\n\x0cLogFrameData\x12\x14\n\x0ctimestamp_ms\x18\x01 \x01(\x04\x12\x14\n\x0c\x66rame_number\x18\x02 \x01(\r\x12=\n\x12holistic_landmarks\x18\x03 \x01(\x0b\x32!.humanLandmarks.HolisticLandmarksb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'landmark_log_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
-  _globals['_COORDINATESYSTEMINFO']._serialized_start=69
-  _globals['_COORDINATESYSTEMINFO']._serialized_end=456
-  _globals['_COORDINATESYSTEMINFO_DIRECTION']._serialized_start=321
-  _globals['_COORDINATESYSTEMINFO_DIRECTION']._serialized_end=407
-  _globals['_COORDINATESYSTEMINFO_HANDEDNESS']._serialized_start=409
-  _globals['_COORDINATESYSTEMINFO_HANDEDNESS']._serialized_end=456
-  _globals['_LOGHEADER']._serialized_start=458
-  _globals['_LOGHEADER']._serialized_end=528
-  _globals['_LOGFRAMEDATA']._serialized_start=530
-  _globals['_LOGFRAMEDATA']._serialized_end=651
+  _globals['_COORDINATESYSTEM']._serialized_start=69
+  _globals['_COORDINATESYSTEM']._serialized_end=440
+  _globals['_COORDINATESYSTEM_DIRECTION']._serialized_start=305
+  _globals['_COORDINATESYSTEM_DIRECTION']._serialized_end=391
+  _globals['_COORDINATESYSTEM_HANDEDNESS']._serialized_start=393
+  _globals['_COORDINATESYSTEM_HANDEDNESS']._serialized_end=440
+  _globals['_LOGHEADER']._serialized_start=443
+  _globals['_LOGHEADER']._serialized_end=578
+  _globals['_LOGFRAMEDATA']._serialized_start=580
+  _globals['_LOGFRAMEDATA']._serialized_end=701
 # @@protoc_insertion_point(module_scope)
