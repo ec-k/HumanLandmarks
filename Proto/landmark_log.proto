@@ -32,7 +32,7 @@ message LogHeader {
 
 // recorded in each of frame
 message LogFrameData {
-    uint64 timestamp_ms = 1;
+    double timestamp_ms = 1;
     uint32 frame_number = 2;
     HolisticLandmarks holistic_landmarks = 3;
 }
