@@ -1,0 +1,37 @@
+syntax = "proto3";
+package humanLandmarks.log;
+import "holistic_landmarks.proto";
+
+message CoordinateSystemInfo {
+    string unit = 1;            // e.g. "meter", "milli meter"
+    Direction up_axis = 2;
+    Direction right_axis = 3;
+    Handedness handedness = 4;  // For 2D estimations, this value should be disregarded.
+
+    enum Direction{
+        X_PLUS = 0;
+        X_MINUS = 1;
+        Y_PLUS = 2;
+        Y_MINUS = 3;
+        Z_PLUS = 4;
+        Z_MINUS = 5;
+    }
+
+    enum Handedness{
+        RIGHT_HANDED = 0;
+        LEFT_HANDED = 1;
+    }
+}
+
+// recorded once in head of the log file
+message LogHeader {
+    string log_schema_version = 1;
+    float capture_framerate_fps = 5;
+}
+
+// recorded in each of frame
+message LogFrameData {
+    uint64 timestamp_ms = 1;
+    uint32 frame_number = 2;
+    HolisticLandmarks holistic_landmarks = 3;
+}

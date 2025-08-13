@@ -1,6 +1,6 @@
 Write-Host "Generating Protobuf code..."
 
-$PROTO_PATH = "./Proto"
+$PROTO_PATH = "./Proto/"
 $PYTHON_OUT_DIR = ".\Runtime\Python"
 $CSHARP_OUT_DIR = ".\Runtime\Csharp"
 
@@ -15,22 +15,24 @@ if (-not (Test-Path -Path $CSHARP_OUT_DIR -PathType Container)){
 }
 
 Write-Host "Generating Python code..."
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/landmark.proto"
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/kinect_pose_landmarks.proto"
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/pose_landmarks.proto"
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/hand_landmarks.proto"
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/face_results.proto"
-protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "$PROTO_PATH/holistic_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "landmark.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "kinect_pose_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "pose_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "hand_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "face_results.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "holistic_landmarks.proto"
+protoc -I"$PROTO_PATH" --python_out="$PYTHON_OUT_DIR" "landmark_log.proto"
 
 # Create an empty __init__.py file
 New-Item -Path "$PYTHON_OUT_DIR\__init__.py" -ItemType File -Force | Out-Null
 
 Write-Host "Generating C# code..."
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/landmark.proto"
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/kinect_pose_landmarks.proto"
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/pose_landmarks.proto"
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/hand_landmarks.proto"
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/face_results.proto"
-protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "$PROTO_PATH/holistic_landmarks.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "landmark.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "kinect_pose_landmarks.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "pose_landmarks.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "hand_landmarks.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "face_results.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "holistic_landmarks.proto"
+protoc -I"$PROTO_PATH" --csharp_out="$CSHARP_OUT_DIR" "landmark_log.proto"
 
 Write-Host "Done."
