@@ -26,7 +26,7 @@ message CoordinateSystem {
 // recorded once in head of the log file
 message LogHeader {
     string log_schema_version = 1;
-    float capture_framerate_fps = 2;
+    int32 capture_framerate_fps = 2;
     CoordinateSystem coordinate_system = 3;
 }
 
