@@ -35,9 +35,9 @@ namespace HumanLandmarks.Log {
             "SU5VUxADEgoKBlpfUExVUxAEEgsKB1pfTUlOVVMQBSIvCgpIYW5kZWRuZXNz",
             "EhAKDFJJR0hUX0hBTkRFRBAAEg8KC0xFRlRfSEFOREVEEAEihwEKCUxvZ0hl",
             "YWRlchIaChJsb2dfc2NoZW1hX3ZlcnNpb24YASABKAkSHQoVY2FwdHVyZV9m",
-            "cmFtZXJhdGVfZnBzGAIgASgCEj8KEWNvb3JkaW5hdGVfc3lzdGVtGAMgASgL",
+            "cmFtZXJhdGVfZnBzGAIgASgFEj8KEWNvb3JkaW5hdGVfc3lzdGVtGAMgASgL",
             "MiQuaHVtYW5MYW5kbWFya3MubG9nLkNvb3JkaW5hdGVTeXN0ZW0ieQoMTG9n",
-            "RnJhbWVEYXRhEhQKDHRpbWVzdGFtcF9tcxgBIAEoBBIUCgxmcmFtZV9udW1i",
+            "RnJhbWVEYXRhEhQKDHRpbWVzdGFtcF9tcxgBIAEoARIUCgxmcmFtZV9udW1i",
             "ZXIYAiABKA0SPQoSaG9saXN0aWNfbGFuZG1hcmtzGAMgASgLMiEuaHVtYW5M",
             "YW5kbWFya3MuSG9saXN0aWNMYW5kbWFya3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -445,10 +445,10 @@ namespace HumanLandmarks.Log {
 
     /// <summary>Field number for the "capture_framerate_fps" field.</summary>
     public const int CaptureFramerateFpsFieldNumber = 2;
-    private float captureFramerateFps_;
+    private int captureFramerateFps_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public float CaptureFramerateFps {
+    public int CaptureFramerateFps {
       get { return captureFramerateFps_; }
       set {
         captureFramerateFps_ = value;
@@ -483,7 +483,7 @@ namespace HumanLandmarks.Log {
         return true;
       }
       if (LogSchemaVersion != other.LogSchemaVersion) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CaptureFramerateFps, other.CaptureFramerateFps)) return false;
+      if (CaptureFramerateFps != other.CaptureFramerateFps) return false;
       if (!object.Equals(CoordinateSystem, other.CoordinateSystem)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -493,7 +493,7 @@ namespace HumanLandmarks.Log {
     public override int GetHashCode() {
       int hash = 1;
       if (LogSchemaVersion.Length != 0) hash ^= LogSchemaVersion.GetHashCode();
-      if (CaptureFramerateFps != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CaptureFramerateFps);
+      if (CaptureFramerateFps != 0) hash ^= CaptureFramerateFps.GetHashCode();
       if (coordinateSystem_ != null) hash ^= CoordinateSystem.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -517,9 +517,9 @@ namespace HumanLandmarks.Log {
         output.WriteRawTag(10);
         output.WriteString(LogSchemaVersion);
       }
-      if (CaptureFramerateFps != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(CaptureFramerateFps);
+      if (CaptureFramerateFps != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(CaptureFramerateFps);
       }
       if (coordinateSystem_ != null) {
         output.WriteRawTag(26);
@@ -539,9 +539,9 @@ namespace HumanLandmarks.Log {
         output.WriteRawTag(10);
         output.WriteString(LogSchemaVersion);
       }
-      if (CaptureFramerateFps != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(CaptureFramerateFps);
+      if (CaptureFramerateFps != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(CaptureFramerateFps);
       }
       if (coordinateSystem_ != null) {
         output.WriteRawTag(26);
@@ -560,8 +560,8 @@ namespace HumanLandmarks.Log {
       if (LogSchemaVersion.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(LogSchemaVersion);
       }
-      if (CaptureFramerateFps != 0F) {
-        size += 1 + 4;
+      if (CaptureFramerateFps != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CaptureFramerateFps);
       }
       if (coordinateSystem_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CoordinateSystem);
@@ -581,7 +581,7 @@ namespace HumanLandmarks.Log {
       if (other.LogSchemaVersion.Length != 0) {
         LogSchemaVersion = other.LogSchemaVersion;
       }
-      if (other.CaptureFramerateFps != 0F) {
+      if (other.CaptureFramerateFps != 0) {
         CaptureFramerateFps = other.CaptureFramerateFps;
       }
       if (other.coordinateSystem_ != null) {
@@ -609,8 +609,8 @@ namespace HumanLandmarks.Log {
             LogSchemaVersion = input.ReadString();
             break;
           }
-          case 21: {
-            CaptureFramerateFps = input.ReadFloat();
+          case 16: {
+            CaptureFramerateFps = input.ReadInt32();
             break;
           }
           case 26: {
@@ -639,8 +639,8 @@ namespace HumanLandmarks.Log {
             LogSchemaVersion = input.ReadString();
             break;
           }
-          case 21: {
-            CaptureFramerateFps = input.ReadFloat();
+          case 16: {
+            CaptureFramerateFps = input.ReadInt32();
             break;
           }
           case 26: {
@@ -709,10 +709,10 @@ namespace HumanLandmarks.Log {
 
     /// <summary>Field number for the "timestamp_ms" field.</summary>
     public const int TimestampMsFieldNumber = 1;
-    private ulong timestampMs_;
+    private double timestampMs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong TimestampMs {
+    public double TimestampMs {
       get { return timestampMs_; }
       set {
         timestampMs_ = value;
@@ -758,7 +758,7 @@ namespace HumanLandmarks.Log {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (TimestampMs != other.TimestampMs) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(TimestampMs, other.TimestampMs)) return false;
       if (FrameNumber != other.FrameNumber) return false;
       if (!object.Equals(HolisticLandmarks, other.HolisticLandmarks)) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -768,7 +768,7 @@ namespace HumanLandmarks.Log {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (TimestampMs != 0UL) hash ^= TimestampMs.GetHashCode();
+      if (TimestampMs != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(TimestampMs);
       if (FrameNumber != 0) hash ^= FrameNumber.GetHashCode();
       if (holisticLandmarks_ != null) hash ^= HolisticLandmarks.GetHashCode();
       if (_unknownFields != null) {
@@ -789,9 +789,9 @@ namespace HumanLandmarks.Log {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (TimestampMs != 0UL) {
-        output.WriteRawTag(8);
-        output.WriteUInt64(TimestampMs);
+      if (TimestampMs != 0D) {
+        output.WriteRawTag(9);
+        output.WriteDouble(TimestampMs);
       }
       if (FrameNumber != 0) {
         output.WriteRawTag(16);
@@ -811,9 +811,9 @@ namespace HumanLandmarks.Log {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (TimestampMs != 0UL) {
-        output.WriteRawTag(8);
-        output.WriteUInt64(TimestampMs);
+      if (TimestampMs != 0D) {
+        output.WriteRawTag(9);
+        output.WriteDouble(TimestampMs);
       }
       if (FrameNumber != 0) {
         output.WriteRawTag(16);
@@ -833,8 +833,8 @@ namespace HumanLandmarks.Log {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (TimestampMs != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(TimestampMs);
+      if (TimestampMs != 0D) {
+        size += 1 + 8;
       }
       if (FrameNumber != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FrameNumber);
@@ -854,7 +854,7 @@ namespace HumanLandmarks.Log {
       if (other == null) {
         return;
       }
-      if (other.TimestampMs != 0UL) {
+      if (other.TimestampMs != 0D) {
         TimestampMs = other.TimestampMs;
       }
       if (other.FrameNumber != 0) {
@@ -881,8 +881,8 @@ namespace HumanLandmarks.Log {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            TimestampMs = input.ReadUInt64();
+          case 9: {
+            TimestampMs = input.ReadDouble();
             break;
           }
           case 16: {
@@ -911,8 +911,8 @@ namespace HumanLandmarks.Log {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            TimestampMs = input.ReadUInt64();
+          case 9: {
+            TimestampMs = input.ReadDouble();
             break;
           }
           case 16: {
