@@ -2,6 +2,8 @@ syntax = "proto3";
 package humanLandmarks;
 import "landmark.proto";
 
+option python_package = "proto_generated";
+
 message HandLandmarks{
   repeated Landmark landmarks = 1;
   enum LandmarkIndex {
