@@ -1,6 +1,8 @@
 syntax = "proto3";
 package humanLandmarks;
 
+option python_package = "proto_generated";
+
 message Landmark {
   Position position = 1;
   Rotation rotation = 2;
