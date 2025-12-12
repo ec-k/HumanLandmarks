@@ -4,7 +4,6 @@ import "kinect_pose_landmarks.proto";
 import "hand_landmarks.proto";
 import "face_results.proto";
 
-option python_package = "proto_generated";
 
 message HolisticLandmarks{
   KinectPoseLandmarks poseLandmarks = 1;

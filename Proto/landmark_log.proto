@@ -2,7 +2,6 @@ syntax = "proto3";
 package humanLandmarks.log;
 import "holistic_landmarks.proto";
 
-option python_package = "proto_generated";
 
 message CoordinateSystem {
     string unit = 1;            // e.g. "meter", "milli meter"
