@@ -4,7 +4,7 @@ import "landmark.proto";
 
 
 message FaceResults{
-  repeated Landmark landmarks = 1;
+  repeated LandmarkPoint landmarks = 1;
   Blendshapes blendshapes = 2;
 }
 

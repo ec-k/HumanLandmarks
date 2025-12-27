@@ -8,11 +8,16 @@ message Landmark {
   float confidence = 3;
 }
 
+message LandmarkPoint {
+  Position position = 1;
+  float confidence = 2;
+}
+
 message Position{
-    float x = 1;
-    float y = 2;
-    float z = 3;
-  }
+  float x = 1;
+  float y = 2;
+  float z = 3;
+}
 
 message Rotation{
   float x = 1;

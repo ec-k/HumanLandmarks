@@ -4,7 +4,7 @@ import "landmark.proto";
 
 
 message PoseLandmarks {
-  repeated Landmark landmarks = 1;
+  repeated LandmarkPoint landmarks = 1;
   enum LandmarkIndex {
     nose = 0;
     leftEyeInner = 1;

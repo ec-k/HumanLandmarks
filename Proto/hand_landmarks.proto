@@ -4,7 +4,7 @@ import "landmark.proto";
 
 
 message HandLandmarks{
-  repeated Landmark landmarks = 1;
+  repeated LandmarkPoint landmarks = 1;
   enum LandmarkIndex {
     wrist = 0;
     thumbCMC = 1;
