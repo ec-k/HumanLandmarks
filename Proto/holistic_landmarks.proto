@@ -1,12 +1,16 @@
 syntax = "proto3";
 package humanLandmarks;
 import "kinect_pose_landmarks.proto";
+import "mediapipe_pose_landmarks.proto";
 import "hand_landmarks.proto";
 import "face_results.proto";
 
 
 message HolisticLandmarks{
-  KinectPoseLandmarks poseLandmarks = 1;
+  oneof poseLandmarks {
+    KinectPoseLandmarks kinectPoseLandmarks = 1;
+    MediaPipePoseLandmarks mediaPipePoseLandmarks = 5;
+  }
   HandLandmarks leftHandLandmarks = 2;
   HandLandmarks rightHandLandmarks = 3;
   FaceResults faceResults = 4;

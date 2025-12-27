@@ -3,7 +3,7 @@ package humanLandmarks;
 import "landmark.proto";
 
 
-message PoseLandmarks {
+message MediaPipePoseLandmarks {
   repeated LandmarkPoint landmarks = 1;
   enum LandmarkIndex {
     nose = 0;
