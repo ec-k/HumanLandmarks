@@ -15,7 +15,7 @@ Additionally, `.meta` files are included so that it can be used as a Unity Packa
 
 ## How to Build
 
-Execute `build_proto.ps1` from PowerShell. This will generate and place built files for C# and Python in the `Runtime` directory.
+Execute `build_proto.ps1` from PowerShell. This will generate and place built files for C# in the `Runtime` directory.
 
 ## Operating Environment
 

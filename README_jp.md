@@ -13,7 +13,7 @@
 
 ## ビルド方法
 
-`build_proto.ps1`を PowerShell から実行してください．これにより，C#および Python 用のビルド済みファイルが`Runtime`ディレクトリ内に生成・配置されます．
+`build_proto.ps1`を PowerShell から実行してください．これにより，C# 用のビルド済みファイルが`Runtime`ディレクトリ内に生成・配置されます．
 
 ## 動作環境
 
